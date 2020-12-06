@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Loan Department]">
+  <parameter name="APIKey/username" value="12345678"/>
+  <parameter name="URL" value="http://google.com"/>
+  <test name="Personal loan(failed)">
+    <classes>
+      <class name="Exam.day2">
+        <methods>
+          <include name="prerequiste"/>
+          <include name="preMethods"/>
+          <include name="postSuiteRequist"/>
+        </methods>
+      </class> <!-- Exam.day2 -->
+      <class name="Exam.day1">
+        <methods>
+          <include name="preSuiteRequist"/>
+        </methods>
+      </class> <!-- Exam.day1 -->
+      <class name="Exam.day3">
+        <methods>
+          <include name="PostMethods"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Exam.day3 -->
+      <class name="Exam.day4">
+        <methods>
+          <include name="postRequist"/>
+          <include name="webLoginHomeLoan"/>
+        </methods>
+      </class> <!-- Exam.day4 -->
+    </classes>
+  </test> <!-- Personal loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->

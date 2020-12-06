@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+	<parameter name="URl" value="http://google.com"/>
+ 	 <test name="Personal loan">
+    	<classes>
+     		 <class name="Exam.day1"/>
+     		 <class name="Exam.day2"/>
+    		 <class name="Exam.day4"/>
+    	</classes>
+  </test> <!-- Test -->
+  
+  <test name="Car loan">
+  	<classes>
+  		<class name="Exam.day3">
+  			
+  		</class>	
+  	</classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="18" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="226" started-at="2020-12-05T17:54:25Z" finished-at="2020-12-05T17:54:25Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="day1.secondTest()[pri:0, instance:Exam.day1@50c87b21]" name="secondTest" class="Exam.day1"/>
+        <method signature="day2.hLoan()[pri:0, instance:Exam.day2@5f375618]" name="hLoan" class="Exam.day2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="226" started-at="2020-12-05T17:54:25Z" finished-at="2020-12-05T17:54:25Z">
+      <class name="Exam.day3">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Exam.day3@32d992b2]" name="beforeClass" duration-ms="49" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="PostMethods()[pri:0, instance:Exam.day3@32d992b2]" name="PostMethods" is-config="true" duration-ms="1" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostMethods -->
+        <test-method status="PASS" signature="mobileLoginCarLoan()[pri:0, instance:Exam.day3@32d992b2]" name="mobileLoginCarLoan" duration-ms="3" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan -->
+        <test-method status="PASS" signature="PostMethods()[pri:0, instance:Exam.day3@32d992b2]" name="PostMethods" is-config="true" duration-ms="1" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostMethods -->
+        <test-method status="PASS" signature="mobileSigninApiCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Exam.day3@32d992b2]" name="mobileSigninApiCarLoan" duration-ms="5" started-at="2020-12-05T23:24:25Z" data-provider="data" finished-at="2020-12-05T23:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSigninApiCarLoan -->
+        <test-method status="PASS" signature="mobileSigninApiCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Exam.day3@32d992b2]" name="mobileSigninApiCarLoan" duration-ms="2" started-at="2020-12-05T23:24:25Z" data-provider="data" finished-at="2020-12-05T23:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSigninApiCarLoan -->
+        <test-method status="PASS" signature="PostMethods()[pri:0, instance:Exam.day3@32d992b2]" name="PostMethods" is-config="true" duration-ms="0" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostMethods -->
+        <test-method status="PASS" signature="PostMethods()[pri:0, instance:Exam.day3@32d992b2]" name="PostMethods" is-config="true" duration-ms="1" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostMethods -->
+        <test-method status="PASS" signature="mobileSigninApiCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Exam.day3@32d992b2]" name="mobileSigninApiCarLoan" duration-ms="6" started-at="2020-12-05T23:24:25Z" data-provider="data" finished-at="2020-12-05T23:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSigninApiCarLoan -->
+        <test-method status="PASS" signature="PostMethods()[pri:0, instance:Exam.day3@32d992b2]" name="PostMethods" is-config="true" duration-ms="1" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostMethods -->
+        <test-method status="PASS" signature="webLoginCarLoan()[pri:0, instance:Exam.day3@32d992b2]" name="webLoginCarLoan" duration-ms="1" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+        <test-method status="PASS" signature="PostMethods()[pri:0, instance:Exam.day3@32d992b2]" name="PostMethods" is-config="true" duration-ms="0" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostMethods -->
+        <test-method status="PASS" signature="mobileAncoutApiCarLoan()[pri:0, instance:Exam.day3@32d992b2]" name="mobileAncoutApiCarLoan" duration-ms="1" started-at="2020-12-05T23:24:25Z" depends-on-methods="Exam.day3.beforeClass, Exam.day3.mobileLoginCarLoan" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileAncoutApiCarLoan -->
+        <test-method status="PASS" signature="PostMethods()[pri:0, instance:Exam.day3@32d992b2]" name="PostMethods" is-config="true" duration-ms="0" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostMethods -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Exam.day3@32d992b2]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Exam.day3 -->
+      <class name="Exam.day4">
+        <test-method status="PASS" signature="loginApiHomeLoan()[pri:0, instance:Exam.day4@1810399e]" name="loginApiHomeLoan" duration-ms="2" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApiHomeLoan -->
+        <test-method status="PASS" signature="mobileLoginHomeLoan()[pri:0, instance:Exam.day4@1810399e]" name="mobileLoginHomeLoan" duration-ms="1" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan -->
+        <test-method status="FAIL" signature="webLoginHomeLoan(java.lang.String, java.lang.String)[pri:0, instance:Exam.day4@1810399e]" name="webLoginHomeLoan" duration-ms="0" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method webLoginHomeLoan but has not been marked @Optional or defined
+in C:\Users\USER\Desktop\Dec19\TestNGTutorials\listeners.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method webLoginHomeLoan but has not been marked @Optional or defined
+in C:\Users\USER\Desktop\Dec19\TestNGTutorials\listeners.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:568)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1020)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1110)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+        <test-method status="PASS" signature="postRequist()[pri:0, instance:Exam.day4@1810399e]" name="postRequist" is-config="true" duration-ms="0" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequist -->
+      </class> <!-- Exam.day4 -->
+      <class name="Exam.day1">
+        <test-method status="PASS" signature="preSuiteRequist()[pri:0, instance:Exam.day1@50c87b21]" name="preSuiteRequist" is-config="true" duration-ms="13" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSuiteRequist -->
+        <test-method status="PASS" signature="arik()[pri:0, instance:Exam.day1@50c87b21]" name="arik" duration-ms="4" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arik -->
+        <test-method status="PASS" signature="beta()[pri:0, instance:Exam.day1@50c87b21]" name="beta" duration-ms="3" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beta -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:Exam.day1@50c87b21]" name="demo" duration-ms="2" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:Exam.day1@50c87b21]" name="secondTest" duration-ms="2" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="zooemo()[pri:0, instance:Exam.day1@50c87b21]" name="zooemo" duration-ms="13" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zooemo -->
+        <test-method status="PASS" signature="accountDemands()[pri:0, instance:Exam.day1@50c87b21]" name="accountDemands" duration-ms="2" started-at="2020-12-05T23:24:25Z" depends-on-methods="Exam.day1.demo" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountDemands -->
+      </class> <!-- Exam.day1 -->
+      <class name="Exam.day2">
+        <test-method status="PASS" signature="prerequiste()[pri:0, instance:Exam.day2@5f375618]" name="prerequiste" is-config="true" duration-ms="0" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method status="PASS" signature="preMethods()[pri:0, instance:Exam.day2@5f375618]" name="preMethods" is-config="true" duration-ms="0" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethods -->
+        <test-method status="PASS" signature="hLoan()[pri:0, instance:Exam.day2@5f375618]" name="hLoan" duration-ms="5" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hLoan -->
+        <test-method status="PASS" signature="pLoan()[pri:0, instance:Exam.day2@5f375618]" name="pLoan" duration-ms="3" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pLoan -->
+        <test-method status="PASS" signature="preMethods()[pri:0, instance:Exam.day2@5f375618]" name="preMethods" is-config="true" duration-ms="0" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethods -->
+        <test-method status="PASS" signature="postSuiteRequist()[pri:0, instance:Exam.day2@5f375618]" name="postSuiteRequist" is-config="true" duration-ms="0" started-at="2020-12-05T23:24:25Z" finished-at="2020-12-05T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSuiteRequist -->
+      </class> <!-- Exam.day2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

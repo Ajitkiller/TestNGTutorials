@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Exam.Listeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Exam.day4">
+        <methods>
+          <include name="postRequist"/>
+          <include name="webLoginHomeLoan"/>
+        </methods>
+      </class> <!-- Exam.day4 -->
+      <class name="Exam.day1">
+        <methods>
+          <include name="preSuiteRequist"/>
+        </methods>
+      </class> <!-- Exam.day1 -->
+      <class name="Exam.day2">
+        <methods>
+          <include name="prerequiste"/>
+          <include name="preMethods"/>
+          <include name="postSuiteRequist"/>
+        </methods>
+      </class> <!-- Exam.day2 -->
+      <class name="Exam.day3">
+        <methods>
+          <include name="PostMethods"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Exam.day3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
